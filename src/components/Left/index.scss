@@ -1,0 +1,114 @@
+
+.left{
+  overflow: hidden;
+  font-family: var(--notos);
+  padding: 20px;
+  max-width: 380px;
+  min-width: 280px;
+  background: rgba(255, 255, 255, 0.72);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.2px);
+  -webkit-backdrop-filter: blur(1.2px);
+  border: 1px solid rgba(255, 255, 255, 0.23);
+  h1{
+    // outline: 1px solid red;
+    width: 100%;
+    font-size: 2.2rem;
+  }
+  p{
+    // outline: 1px solid red;
+    font-family: var(--noto);
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    margin-top: -4px;
+    padding: 0 10px;
+  }
+}
+.left .title{
+  margin-top: -9px;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+.left .exp{
+  // outline: 1px solid red;
+  font-family: var(--notos);
+  font-stretch: expanded;
+  letter-spacing: 4px;
+}
+.left .forecasting{
+  // outline: 1px solid red;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0 10px;
+  letter-spacing: 0.2px;
+}
+.left .exp1{
+  // outline: 1px solid red;
+  letter-spacing: 0.8px;
+  padding-left: 28px;
+  font-family: var(--lobster);
+  font-weight: lighter;
+  color: var(--warn-grey);
+  text-align: left;
+  list-style-type:lower-greek;
+}
+.left .exp2{ list-style-type: circle;      }
+.left .exp3{ list-style-type: disc;        }
+.left .exp4{ list-style-type: lower-roman; }
+.left .exp5{ list-style-type: upper-latin; }
+.left .center{ text-align: center; }
+.left .contact{
+  margin: 10px;
+  // display:table;
+  // outline: 1px solid red; 
+  width: 90%;
+  max-width: 320px;
+  border-radius: 16px;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.16);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-image: linear-gradient(315deg, #f3f4f7 8%, var(--just-white) 48%);
+  font-weight: bold;
+  line-height: 0.9rem;
+  font-size: 1.8rem;
+  font-family: var(--noto);
+  margin-bottom: 40px;
+  h2{
+    font-size: 1.8rem;
+  }
+  h3{
+    font-size: 1.1rem;
+  }
+}
+.imgContainerPerson{
+  width: 260px;
+  height: 240px;
+  overflow: hidden;
+  border-radius: 22px;
+  margin: 14px calc(50% - 140px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: var(--off-white);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16);
+}
+.img{
+  width: 140%;
+  margin: -18px -50px;
+}
+.rubi{
+  margin: -100px 0;
+  transform: rotate(-45deg);
+  width: 80%;
+}
+
+@media screen and (min-width: 900px){
+  .left{ max-width: 100%; }
+  .left .contact {
+    max-width: 420px;
+    margin: 0 auto ;
+  }
+}
